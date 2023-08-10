@@ -20,26 +20,31 @@
                 Request for a invite code
             </h1>
         </section>
-        <section>
+        <section class="sm:flex sm:justify-center sm:items-center">
             <form action="
-            " class="text-[max(14px,3.7vw)] flex flex-col gap-[0.7em] bg-[#FCFAF5] font-[400] py-[3.42em] px-[1.5em] my-[3.42em]">
-                <input type="text" name="" id="" placeholder="Full name" class="bg-[#EDEDF0] rounded-[0.57em] text-[#86889A] py-[1.5em] pl-[1.14em] leading-[1.57em]">
-                <input type="text" name="" id="" placeholder="Any active social handle" class="bg-[#EDEDF0] rounded-[0.57em] text-[#86889A] py-[1.5em] pl-[1.14em] leading-[1.57em]">
+            " class="text-[max(14px,3.7vw)] flex flex-col gap-[0.7em] bg-[#FCFAF5] font-[400] py-[3.42em] px-[1.5em] my-[3.42em] sm:text-[clamp(7.2px,1.125vw,18px)] sm:p-[100px] sm:my-[11.1em] sm:w-[clamp(412px,64.375vw,1030px)]">
+            <div class="flex flex-col sm:flex-row gap-[0.7em]">
+                <input type="text" name="" id="" placeholder="Full name"
+                    class="bg-[#EDEDF0] rounded-[0.57em] text-[#86889A] py-[1.5em] pl-[1.14em] leading-[1.57em] w-[100%]">
+                <input type="text" name="" id="" placeholder="Any active social handle"
+                    class="bg-[#EDEDF0] rounded-[0.57em] text-[#86889A] py-[1.5em] pl-[1.14em] leading-[1.57em] w-[100%]">
+            </div>
                 <input type="email" name="" id="" placeholder="Email Address" class="bg-[#EDEDF0] rounded-[0.57em] text-[#86889A] py-[1.5em] pl-[1.14em] leading-[1.57em]">
-                <textarea name="" id="" cols="30" rows="10" placeholder="In few words tell us your reason..." class="bg-[#EDEDF0] rounded-[0.57em] text-[#86889A] py-[1.5em] pl-[1.14em] leading-[1.57em]"></textarea>
-                <button type="submit" class="bg-[#3148EB] leading-[1.57em] py-[0.857em] px-[6.57em] text-[#FFF] rounded-[0.57em] mt-[2.85em]" style="box-shadow:0px 15px 30px 0px rgba(49, 72, 235, 0.20);">Request to join</button>
+                <textarea name="" id="" cols="30" rows="10" placeholder="In few words tell us your reason..." class="bg-[#EDEDF0] rounded-[0.57em] text-[#86889A] py-[1.5em] pl-[1.14em] leading-[1.57em] sm:text-[clamp(8px,1.25vw,20px)]"></textarea>
+                <button type="submit" class="bg-[#3148EB] leading-[1.57em] py-[0.857em] px-[6.57em] text-[#FFF] rounded-[0.57em] mt-[2.85em] sm:text-[clamp(8px,1.25vw,20px)] sm:w-[42%] sm:py-[1em] sm:px-[2.3em] sm:mt-[2.8em]" style="box-shadow:0px 15px 30px 0px rgba(49, 72, 235, 0.20);">Request to join</button>
         </form>
         </section>
     </main>
-    <footer style="background-image:url('/dist//assets//images/footer.svg');" class="bg-center bg-no-repeat bg-cover">
-        <div class="text-[1vw] flex flex-row justify-between mx-auto h-[31.25em] text-[#02072C] w-[77.5%]">
-            <span class="text-[1.5vw] mt-[6.25em]">Better <b>Half</b></span>
-            <div class="mt-[6.25em]">
-                <h3 class="text-end text-[1.125em] font-[500] mb-[1.77em]">Social media</h3>
-                <nav class="flex flex-row items-center justify-between">
-                    <img src="/dist/assets/images/Frame 1649.svg" alt="twitter-icon" class="w-[max(34px,9vw)] h-[max(34px,9vw)]"/><img
-                        src="/dist/assets/images/Frame 1648.svg" alt="facebook-icon" class="w-[max(34px,9vw)] h-[max(34px,9vw)]"/><img
-                        src="/dist/assets/images/Frame 9.svg" alt="" class="w-[max(34px,9vw)] h-[max(34px,9vw)]"/>
+
+    <footer style="background-image:url('/dist/assets/images/Frame 1822.svg');" class="bg-center bg-no-repeat bg-cover h-[450px] flex justify-center items-center sm:h-[clamp(200px,31vw,500px)]">
+        <div class="w-[40%] sm:flex text-center sm:flex-row sm:justify-between sm:items-center sm:text-start sm:w-[77.5%]">
+            <div class="text-[max(16px,4.266vw)] font-[300] leading-[1.625em] tracking-[0.1em] mb-[2.5em] sm:text-[clamp(9.6px,1.5vw,24px)] sm:h-[4.375em]">Better <b class="font-[500]">Half</b></div>
+            <div>
+                <h3 class="text-[max(14px,3.73vw)] text-center font-[400] leading-[0.64em] mb-[1.14em] sm:text-[clamp(7.2px,1.125vw,18px)] sm:text-end sm:font-[500]">Social media</h3>
+                <nav class="flex flex-row items-center justify-center">
+                    <img src="/dist/assets/images/Frame 1649.svg" alt="twitter-icon" class="h-[max(94px,25vw)] w-[max(94px,25vw)] sm:h-[84px] sm:w-[84px] text-[#9BA3EA]"/><img
+                        src="/dist/assets/images/Frame 1648.svg" alt="facebook-icon" class="h-[max(94px,25vw)] w-[max(94px,25vw)] sm:h-[84px] sm:w-[84px] text-[#9BA3EA]"/><img
+                        src="/dist/assets/images/Frame 9.svg" alt="" class="h-[max(94px,25vw)] w-[max(94px,25vw)] sm:h-[84px] sm:w-[84px] text-[#9BA3EA]"/>
                 </nav>
             </div>
         </div>
