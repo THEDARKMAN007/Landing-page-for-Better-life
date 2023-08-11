@@ -593,10 +593,6 @@ video {
   margin-bottom: 0.66em;
 }
 
-.mb-\[0\.7em\] {
-  margin-bottom: 0.7em;
-}
-
 .mb-\[1\.14em\] {
   margin-bottom: 1.14em;
 }
@@ -677,10 +673,6 @@ video {
   height: 0.125vw;
 }
 
-.h-\[3\.75em\] {
-  height: 3.75em;
-}
-
 .h-\[450px\] {
   height: 450px;
 }
@@ -693,16 +685,8 @@ video {
   height: 5.625em;
 }
 
-.h-\[50em\] {
-  height: 50em;
-}
-
 .h-\[56\.25em\] {
   height: 56.25em;
-}
-
-.h-\[6\.25em\] {
-  height: 6.25em;
 }
 
 .h-\[61\.75em\] {
@@ -725,6 +709,10 @@ video {
   height: clamp(233.2px,36.4375vw,583px);
 }
 
+.h-\[max\(31px\2c 8\.26vw\)\] {
+  height: max(31px,8.26vw);
+}
+
 .h-\[max\(94px\2c 25vw\)\] {
   height: max(94px,25vw);
 }
@@ -735,10 +723,6 @@ video {
 
 .w-\[100\%\] {
   width: 100%;
-}
-
-.w-\[11em\] {
-  width: 11em;
 }
 
 .w-\[36\.5\%\] {
@@ -755,10 +739,6 @@ video {
 
 .w-\[40\.3\%\] {
   width: 40.3%;
-}
-
-.w-\[45\.75\%\] {
-  width: 45.75%;
 }
 
 .w-\[46\%\] {
@@ -785,6 +765,10 @@ video {
   width: 63.55%;
 }
 
+.w-\[66\.6\%\] {
+  width: 66.6%;
+}
+
 .w-\[66\.67\%\] {
   width: 66.67%;
 }
@@ -805,6 +789,10 @@ video {
   width: 77.5%;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
 .w-\[82\.45\%\] {
   width: 82.45%;
 }
@@ -819,6 +807,10 @@ video {
 
 .w-\[clamp\(107px\2c 16\.8vw\2c 269px\)\] {
   width: clamp(107px,16.8vw,269px);
+}
+
+.w-\[max\(90px\2c 24vw\)\] {
+  width: max(90px,24vw);
 }
 
 .w-\[max\(94px\2c 25vw\)\] {
@@ -887,6 +879,10 @@ video {
 
 .rounded-\[1\.675em\] {
   border-radius: 1.675em;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .bg-\[\#3148EB\] {
@@ -970,6 +966,10 @@ video {
   padding-bottom: 6.25em;
 }
 
+.pb-\[13\.6vw\] {
+  padding-bottom: 13.6vw;
+}
+
 .pb-\[9\.375em\] {
   padding-bottom: 9.375em;
 }
@@ -984,6 +984,10 @@ video {
 
 .pl-\[6\.25em\] {
   padding-left: 6.25em;
+}
+
+.pt-\[18\.6vw\] {
+  padding-top: 18.6vw;
 }
 
 .pt-\[2\.92em\] {
@@ -1030,10 +1034,6 @@ video {
   font-size: 2.5vw;
 }
 
-.text-\[3\.5vw\] {
-  font-size: 3.5vw;
-}
-
 .text-\[max\(14px\2c 1vw\)\] {
   font-size: max(14px,1vw);
 }
@@ -1054,10 +1054,6 @@ video {
   font-size: max(24px,6.4vw);
 }
 
-.font-\[275\] {
-  font-weight: 275;
-}
-
 .font-\[300\] {
   font-weight: 300;
 }
@@ -1076,6 +1072,10 @@ video {
 
 .leading-\[1\.25em\] {
   line-height: 1.25em;
+}
+
+.leading-\[1\.33em\] {
+  line-height: 1.33em;
 }
 
 .leading-\[1\.375em\] {
@@ -1100,10 +1100,6 @@ video {
 
 .leading-\[1\.625em\] {
   line-height: 1.625em;
-}
-
-.leading-\[1\.67em\] {
-  line-height: 1.67em;
 }
 
 .leading-\[1\.6em\] {
@@ -1157,6 +1153,10 @@ video {
     margin-bottom: 11.1em;
   }
 
+  .sm\:mb-\[0\.7em\] {
+    margin-bottom: 0.7em;
+  }
+
   .sm\:mt-\[2\.8em\] {
     margin-top: 2.8em;
   }
@@ -1165,8 +1165,16 @@ video {
     display: flex;
   }
 
+  .sm\:h-\[3\.75em\] {
+    height: 3.75em;
+  }
+
   .sm\:h-\[4\.375em\] {
     height: 4.375em;
+  }
+
+  .sm\:h-\[50em\] {
+    height: 50em;
   }
 
   .sm\:h-\[6\.25em\] {
@@ -1185,12 +1193,24 @@ video {
     height: clamp(200px,31vw,500px);
   }
 
+  .sm\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .sm\:w-\[11em\] {
+    width: 11em;
+  }
+
   .sm\:w-\[37\.5\%\] {
     width: 37.5%;
   }
 
   .sm\:w-\[42\%\] {
     width: 42%;
+  }
+
+  .sm\:w-\[45\.75\%\] {
+    width: 45.75%;
   }
 
   .sm\:w-\[77\.5\%\] {
@@ -1235,12 +1255,20 @@ video {
     padding-bottom: 1em;
   }
 
+  .sm\:pb-\[0\] {
+    padding-bottom: 0;
+  }
+
   .sm\:pl-\[3\.2em\] {
     padding-left: 3.2em;
   }
 
   .sm\:pt-0 {
     padding-top: 0px;
+  }
+
+  .sm\:pt-\[0\] {
+    padding-top: 0;
   }
 
   .sm\:pt-\[3\.2em\] {
@@ -1253,6 +1281,10 @@ video {
 
   .sm\:text-end {
     text-align: end;
+  }
+
+  .sm\:text-\[clamp\(22\.4px\2c 3\.5vw\2c 56px\)\] {
+    font-size: clamp(22.4px,3.5vw,56px);
   }
 
   .sm\:text-\[clamp\(7\.2px\2c 1\.125vw\2c 18px\)\] {
@@ -1275,11 +1307,31 @@ video {
     font-size: max(20px,1.25vw);
   }
 
+  .sm\:text-\[min\(16px\2c 1vw\)\] {
+    font-size: min(16px,1vw);
+  }
+
+  .sm\:text-\[min\(56px\2c 1\.125vw\)\] {
+    font-size: min(56px,1.125vw);
+  }
+
   .sm\:text-\[min\(56px\2c 3\.5vw\)\] {
     font-size: min(56px,3.5vw);
   }
 
+  .sm\:font-\[275\] {
+    font-weight: 275;
+  }
+
   .sm\:font-\[500\] {
     font-weight: 500;
+  }
+
+  .sm\:leading-\[1\.25em\] {
+    line-height: 1.25em;
+  }
+
+  .sm\:leading-\[1\.67em\] {
+    line-height: 1.67em;
   }
 }
