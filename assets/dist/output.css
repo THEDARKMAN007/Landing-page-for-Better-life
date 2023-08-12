@@ -1408,6 +1408,18 @@ video {
     height: clamp(200px,31vw,500px);
   }
 
+  .sm\:h-\[max\(200px\2c 31vw\2c 500px\)\] {
+    height: max(200px,31vw,500px);
+  }
+
+  .sm\:h-\[max\(200px\2c 31vw\)\] {
+    height: max(200px,31vw);
+  }
+
+  .sm\:h-\[clamp\(200px\2c 31vw\)\] {
+    height: clamp(200px,31vw);
+  }
+
   .sm\:w-\[100\%\] {
     width: 100%;
   }
