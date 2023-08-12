@@ -3,6 +3,9 @@ module.exports = {
   content: ["./**/*.html"],
   theme: {
     extend: {
+      fontFamily: {
+        primary: "poppins",
+      },
     },
   },
   plugins: [],
